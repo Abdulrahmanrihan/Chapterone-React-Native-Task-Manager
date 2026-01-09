@@ -233,40 +233,6 @@ The app follows a "delightful productivity" approach where task management feels
 | Time-based themes | ✅ | ✅ | ✅ |
 | Custom fonts | ✅ | ✅ | ✅ |
 
-## 🐛 Troubleshooting
-
-### Fonts Not Loading
-```bash
-# Clear cache and restart
-npx expo start -c
-```
-
-### Haptics/Shake Not Working
-- These features only work on physical devices
-- Not available in web browser or some emulators
-- Check device isn't in silent mode
-
-### Tasks Not Deleting (Web)
-- Web uses `window.confirm` instead of Alert.alert
-- This is expected behavior and works correctly
-
-### Particles Not Appearing
-- Particles only appear when completing tasks (not uncompleting)
-- Animation duration is 600ms (very quick)
-- Check device performance
-
-## 🎓 Learning Outcomes
-
-This project demonstrates:
-- Advanced React Native patterns
-- Performance optimization techniques
-- Platform-specific development
-- Animation and gesture handling
-- TypeScript in React Native
-- State management best practices
-- UI/UX design principles
-
-
 ### Quick Reference
 
 **Add Task:** Title (required) + Description (optional) + Priority → Press +  
